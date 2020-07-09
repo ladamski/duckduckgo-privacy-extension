@@ -34,6 +34,11 @@ const domainTestCases = [
         'valid': true
     },
     {
+        'url': 'new-www.test.com',
+        'whitelistedDomain': 'new-www.test.com',
+        'valid': true
+    },
+    {
         'url': 'duckduck',
         'whitelistedDomain': '',
         'valid': false
